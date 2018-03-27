@@ -35,8 +35,15 @@ public class Fibonacci {
             }
         }
         
-        for(int i = 0; i < size; i++)
+        int sum = 0;
+        
+        for(int i = 0; i < size; i++){
+            sum += fibonacci[i];
             System.out.print(fibonacci[i] + " ");
+        }
+        
+        System.out.println("");
+        System.out.println("Total : " + sum);
     }
     
 }
