@@ -37,7 +37,7 @@ public class Fibonacci {
         
         int sum = 0;
         
-        for(int i = 0; i < size; i++){
+        for(int i = size-1; i >= 0; i--){
             sum += fibonacci[i];
             System.out.print(fibonacci[i] + " ");
         }
